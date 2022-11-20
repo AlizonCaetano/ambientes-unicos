@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100vw;
+}
+
+.logo{
+  margin-bottom: 8.2rem;
+}
+
+main{
+  max-width: 59rem;
+  height: 100vh;
+  margin: auto;
+
+  text-align: center;
+}
+
+main h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+
+  margin-bottom: 7.2rem;
+}
+
+main h1 span,
+main p span,
+footer ul li a{
+  color: #FF9900;
+}
+
+main h1 span{
+  font-weight: 700;
+}
+
+main p{
+  color: #7D7987;
+  margin-bottom: 3.2rem;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 18rem;
+  width: 100%;
+
+  border-top: 1px solid #eceaf1;;
+}
+
+footer ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 10px;
+}
+
+footer ul li{
+  cursor: pointer;
+}
+
+footer ul li a{
+  text-decoration: none;
+}
+
+footer i{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+/*====QUERIES===================*/
+
+@media(max-width: 600px){
+
+
+  .logo {
+    margin-bottom: 3.2rem;
+  }
+
+  main h1{
+    font-size: 3.9rem;
+    margin-bottom: 2.2rem;
+  }
+
+  main p {
+    margin-bottom: 2.2rem;
+  }
+
+  footer{
+    margin: 0;
+  }
+
+  i{
+    display: none;
+  }
+
+}
+
